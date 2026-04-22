@@ -1,6 +1,6 @@
 Markdown
 
-# Anti-Fraud Transaction Pipeline 🚨
+# Anti-Fraud Transaction Pipeline 
 
 The simplest and fastest repository to understand a data pipeline using the Medallion Architecture (Raw -> Silver -> Gold). This project demonstrates data ingestion, processing, and fraud detection using **DuckDB**, **Parquet**, and **Streamlit**.
 
