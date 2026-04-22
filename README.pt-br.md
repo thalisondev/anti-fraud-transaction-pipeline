@@ -8,7 +8,7 @@ O código é plano e legível: `processamento.py` faz a limpeza dos dados e `ana
 ## Instalação
 
 ```bash
-pip install pandas duckdb faker streamlit pyarrow
+pip install requirements.txt
 
 Início Rápido
 
