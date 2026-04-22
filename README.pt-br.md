@@ -13,26 +13,26 @@ pip install -r requirements.txt
 ## Início Rápido
 
 Se você quer apenas sentir a "mágica" e ver o pipeline funcionando, siga estes passos:
-
-    Gerar os dados brutos (Raw):
+  
+   Gerar os dados brutos (Raw):
 
     python gerador_transacoes.py
 
-    Isso cria um arquivo transacoes_raw.csv com registros sintéticos (incluindo transações suspeitas de alto valor).
+Isso cria um arquivo transacoes_raw.csv com registros sintéticos (incluindo transações suspeitas de alto valor).
 
-    Processar para Silver (Parquet):
+   Processar para Silver (Parquet):
 
     python processamento.py
 
-    O script limpa os dados, trata tipagens de data e converte o CSV para o formato binário otimizado .parquet.
+   O script limpa os dados, trata tipagens de data e converte o CSV para o formato binário otimizado .parquet.
 
-    Executar análise de fraude (Gold):
+   Executar análise de fraude (Gold):
 
     python analise_fraudes.py
+    
+   Utiliza o DuckDB para ler o arquivo Parquet via SQL e isolar transações acima de R$ 3.000, salvando o resultado em fraudes_gold.parquet.
 
-    Utiliza o DuckDB para ler o arquivo Parquet via SQL e isolar transações acima de R$ 3.000, salvando o resultado em fraudes_gold.parquet.
-
-    Visualizar o Dashboard:
+   Visualizar o Dashboard:
 
     streamlit run dashboard.py
 ```
