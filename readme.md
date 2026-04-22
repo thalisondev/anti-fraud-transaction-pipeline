@@ -8,7 +8,7 @@ The code is plain and readable: `processamento.py` handles data cleaning and `an
 ## Install
 
 ```bash
-pip install 
+pip install requirements.txt
 
 Quick Start
 
