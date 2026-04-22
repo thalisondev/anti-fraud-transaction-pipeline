@@ -46,7 +46,7 @@ O projeto segue a arquitetura de medalhão para garantir a qualidade e linhagem 
 
     Gold: O "filé mignon" dos dados. Contém apenas transações filtradas pela regra de negócio (Potenciais Fraudes).
 
-Eficiência com DuckDB
+Eficiência com DuckDB.
 
 Diferente de bancos de dados tradicionais, o uso de DuckDB permite processar arquivos Parquet quase instantaneamente no seu computador, sem a necessidade de instalar servidores pesados. É a stack moderna para Engenharia de Dados local.
 Todos
