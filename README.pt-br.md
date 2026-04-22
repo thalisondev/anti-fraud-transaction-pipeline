@@ -1,6 +1,6 @@
 Markdown
 
-# Anti-Fraud Transaction Pipeline 🚨
+# Anti-Fraud Transaction Pipeline 
 
 O repositório mais simples e rápido para entender um pipeline de dados com arquitetura de medalhão (Raw -> Silver -> Gold). Este projeto demonstra a ingestão, processamento e detecção de fraudes em transações financeiras utilizando **DuckDB**, **Parquet** e **Streamlit**.
 
