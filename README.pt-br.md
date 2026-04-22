@@ -15,30 +15,27 @@ Início Rápido
 Se você quer apenas sentir a "mágica" e ver o pipeline funcionando, siga estes passos:
 
     Gerar os dados brutos (Raw):
-    Bash
 
     python gerador_transacoes.py
 
     Isso cria um arquivo transacoes_raw.csv com registros sintéticos (incluindo transações suspeitas de alto valor).
 
     Processar para Silver (Parquet):
-    Bash
 
     python processamento.py
 
     O script limpa os dados, trata tipagens de data e converte o CSV para o formato binário otimizado .parquet.
 
     Executar análise de fraude (Gold):
-    Bash
 
     python analise_fraudes.py
 
     Utiliza o DuckDB para ler o arquivo Parquet via SQL e isolar transações acima de R$ 3.000, salvando o resultado em fraudes_gold.parquet.
 
     Visualizar o Dashboard:
-    Bash
 
     streamlit run dashboard.py
+```
 
 Camadas de Dados (Medallion Architecture)
 
