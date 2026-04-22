@@ -8,8 +8,8 @@ The code is plain and readable: `processamento.py` handles data cleaning and `an
 ## Install
 
 ```bash
-pip install requirements.txt
-
+pip install -r requirements.txt
+```
 Quick Start
 
 If you want to feel the "magic" and see the pipeline in action, follow these steps:
