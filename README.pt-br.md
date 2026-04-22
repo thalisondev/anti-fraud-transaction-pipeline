@@ -57,6 +57,6 @@ Todos
 
     [ ] Criar automação do pipeline com Airflow ou Prefect.
     
-contact
+contato:
 
  linkedin: https://www.linkedin.com/in/thalison-dev
