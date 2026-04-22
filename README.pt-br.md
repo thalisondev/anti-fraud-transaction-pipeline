@@ -35,7 +35,6 @@ Isso cria um arquivo transacoes_raw.csv com registros sintéticos (incluindo tra
    Visualizar o Dashboard:
 
     streamlit run dashboard.py
-```
 
 Camadas de Dados (Medallion Architecture)
 
