@@ -10,34 +10,30 @@ The code is plain and readable: `processamento.py` handles data cleaning and `an
 ```bash
 pip install -r requirements.txt
 ```
-Quick Start
+## Quick Start
 
 If you want to feel the "magic" and see the pipeline in action, follow these steps:
 
-    Generate Raw Data:
-    Bash
-
+   Generate Raw Data:
+    
     python gerador_transacoes.py
 
-    This creates a transacoes_raw.csv file with synthetic records (including high-value suspicious transactions).
+   This creates a transacoes_raw.csv file with synthetic records (including high-value suspicious transactions).
 
-    Process to Silver (Parquet):
-    Bash
+   Process to Silver (Parquet):
 
     python processamento.py
 
-    The script cleans the data, fixes datetime types, and converts the CSV into the optimized binary .parquet format.
+   The script cleans the data, fixes datetime types, and converts the CSV into the optimized binary .parquet format.
 
-    Run Fraud Analysis (Gold):
-    Bash
-
+   Run Fraud Analysis (Gold):
+    
     python analise_fraudes.py
 
-    Uses DuckDB to read the Parquet file via SQL and isolate transactions above R$ 3,000, saving the result to fraudes_gold.parquet.
+   Uses DuckDB to read the Parquet file via SQL and isolate transactions above R$ 3,000, saving the result to fraudes_gold.parquet.
 
-    Launch the Dashboard:
-    Bash
-
+   Launch the Dashboard:
+    
     streamlit run dashboard.py
 
 Data Layers (Medallion Architecture)
@@ -64,6 +60,6 @@ Todos
 
 🇧🇷 Portuguese: README.pt-br.md
 
-contact
+contact:
 
  linkedin: https://www.linkedin.com/in/thalison-dev
