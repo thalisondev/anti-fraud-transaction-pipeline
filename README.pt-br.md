@@ -10,7 +10,7 @@ O código é plano e legível: `processamento.py` faz a limpeza dos dados e `ana
 ```bash
 pip install -r requirements.txt
 ```
-Início Rápido
+## Início Rápido
 
 Se você quer apenas sentir a "mágica" e ver o pipeline funcionando, siga estes passos:
 
