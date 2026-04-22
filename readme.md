@@ -34,8 +34,8 @@ If you want to feel the "magic" and see the pipeline in action, follow these ste
 
    Launch the Dashboard:
     
-    streamlit run dashboard.py
-
+    python -m streamlit run dashboard.py
+ 
 Data Layers (Medallion Architecture)
 
 The project follows the medallion architecture to ensure data quality and lineage:
