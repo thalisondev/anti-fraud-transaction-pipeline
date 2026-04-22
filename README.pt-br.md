@@ -1,4 +1,3 @@
-Markdown
 
 # Anti-Fraud Transaction Pipeline 
 
